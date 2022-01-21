@@ -15,6 +15,8 @@ public class PolyGood {
   }
 
   private void go(String data, Operation operation) {
+    // ... какая-то логика
     operation.action(data);
+    // ... какая-то логика
   }
 }
