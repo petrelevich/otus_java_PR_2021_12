@@ -12,4 +12,6 @@ include 'L07-lombok'
 include 'L08-remoteDebug'
 include 'L09-byteCodes'
 include 'L10-java8'
+
 include 'L11-solid'
+include 'L12-behavioralPatterns'
