@@ -17,7 +17,7 @@ public class DemoJdk {
         // Конструктор -- в куче
         String str1 = "Hello, OTUS";
         String str2 = "Hello, OTUS";
-        System.out.println("str1 == str2 ->" + (str1 == str2));
+        System.out.println("str1 == str2 -> " + (str1 == str2));
 
         // Строковый литерал -- в пуле строк (string pool) (интернирование, interning)
         // Конструктор -- в куче

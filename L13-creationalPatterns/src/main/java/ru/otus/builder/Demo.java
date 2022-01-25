@@ -11,7 +11,7 @@ public class Demo {
     System.out.println(bigObject1);
 
     // Так лучше
-    BigObject bigObject2 = new BigObject.BigObjectBuilder("1")
+    BigObject bigObject2 = new BigObject.Builder("1")
         .withParam2("value of param2")   // задаем нужные параметры
         .withParam5("value of param5")   // в любом порядке
         //.withParam4() // для необязательных просто не вызываем метод

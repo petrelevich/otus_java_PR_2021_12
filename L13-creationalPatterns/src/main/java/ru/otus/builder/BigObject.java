@@ -26,7 +26,7 @@ public class BigObject {
     this.param5 = param5;
   }
 
-  private BigObject(BigObjectBuilder builder) {
+  private BigObject(Builder builder) {
     this.param1 = builder.param1;
     this.param2 = builder.param2;
     this.param3 = builder.param3;
@@ -46,14 +46,14 @@ public class BigObject {
         '}';
   }
 
-  public static class BigObjectBuilder {
+  public static class Builder {
     private String param1; // обязательный
     private String param2;
     private String param3;
     private String param4;
     private String param5;
 
-    BigObjectBuilder(String param1) {
+    Builder(String param1) {
       // Можем проверить обязательные аргументы
       if (param1 == null)
         throw new IllegalArgumentException("param1 cannot be null");
@@ -61,12 +61,12 @@ public class BigObject {
       this.param1 = param1;
     }
 
-    BigObjectBuilder withParam2(String param2) {
+    Builder withParam2(String param2) {
       this.param2 = param2;
       return this; //fluent interface
     }
 
-    BigObjectBuilder withParam3(String param3) {
+    Builder withParam3(String param3) {
       // Можем здесь также проверить аргумент
       if (param3.length() < 10)
         throw new IllegalArgumentException("length of param3 must be >= 10");
@@ -75,12 +75,12 @@ public class BigObject {
       return this;
     }
 
-    public BigObjectBuilder withParam4(String param4) {
+    public Builder withParam4(String param4) {
       this.param4 = param4;
       return this;
     }
 
-    BigObjectBuilder withParam5(String param5) {
+    Builder withParam5(String param5) {
       this.param5 = param5;
       return this;
     }
