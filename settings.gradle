@@ -16,3 +16,6 @@ include 'L10-java8'
 include 'L11-solid'
 include 'L12-behavioralPatterns'
 include 'L13-creationalPatterns'
+
+include 'L14-structuralPatterns:demo'
+include 'L14-structuralPatterns:homework'
