@@ -24,3 +24,6 @@ include 'L15-io:demo'
 include 'L15-io:homework'
 
 include 'L16-nio-logging'
+
+include 'L17-jdbc:demo'
+include 'L17-jdbc:homework'
