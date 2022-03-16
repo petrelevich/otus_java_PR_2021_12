@@ -45,3 +45,5 @@ include 'L23-noSQL:cassandra-demo'
 
 include 'L24-di:class-demo'
 include 'L24-di:homework-template'
+
+include 'L25-springBootMvc'
