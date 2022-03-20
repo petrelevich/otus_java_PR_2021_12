@@ -47,3 +47,8 @@ include 'L24-di:class-demo'
 include 'L24-di:homework-template'
 
 include 'L25-springBootMvc'
+
+include 'L26-websocket:websocket'
+include 'L26-websocket:messager'
+include 'L26-websocket:messager-starter'
+include 'L26-websocket:application'
