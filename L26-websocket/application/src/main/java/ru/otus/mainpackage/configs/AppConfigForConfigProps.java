@@ -5,14 +5,13 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties(prefix = "application")
 public class AppConfigForConfigProps {
 
-    private String message;
+    private String paramName;
 
-    public String getMessage() {
-        return message;
+    public String getParamName() {
+        return paramName;
     }
 
-    public void setMessage(String message) {
-        this.message = message;
+    public void setParamName(String paramName) {
+        this.paramName = paramName;
     }
-
 }
