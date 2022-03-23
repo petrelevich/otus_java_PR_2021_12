@@ -52,3 +52,5 @@ include 'L26-websocket:websocket'
 include 'L26-websocket:messager'
 include 'L26-websocket:messager-starter'
 include 'L26-websocket:application'
+
+include 'L27-springDataJdbc'
