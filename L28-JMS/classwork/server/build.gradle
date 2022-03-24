@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+sourceCompatibility = JavaVersion.VERSION_17
+targetCompatibility = JavaVersion.VERSION_17
+
+dependencies {
+    dependencies {
+        compileOnly "org.projectlombok:lombok:${Versions.lombok}"
+        annotationProcessor "org.projectlombok:lombok:${Versions.lombok}"
+
+        implementation 'ch.qos.logback:logback-classic'
+
+        implementation 'org.springframework.boot:spring-boot-starter'
+    }
+}
+
+test {
+}
