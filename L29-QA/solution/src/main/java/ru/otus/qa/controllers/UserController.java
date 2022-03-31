@@ -26,4 +26,9 @@ public class UserController {
     public User update( @RequestParam(value = "user") User user ) {
         return userService.createUser( user );
     }
+
+    @GetMapping("/check")
+    public String check(){
+        return "OK";
+    }
 }

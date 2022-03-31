@@ -3,12 +3,9 @@ spring:
     url: jdbc:postgresql://localhost:5430/demoDB
     username: usr
     password: pwd
+  jpa:
+    show-sql: true
   flyway:
     enabled: true
-
-logging:
-  level:
-    org.springframework.jdbc.core.JdbcTemplate: TRACE
-
 server:
   port: 11011
