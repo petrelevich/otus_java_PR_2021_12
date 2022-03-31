@@ -58,3 +58,6 @@ include 'L28-JMS:solution:client'
 include 'L28-JMS:solution:server'
 include 'L28-JMS:classwork:client'
 include 'L28-JMS:classwork:server'
+
+include 'L29-QA:example'
+include 'L29-QA:solution'
