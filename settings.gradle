@@ -48,10 +48,10 @@ include 'L24-di:homework-template'
 
 include 'L25-springBootMvc'
 
-//include 'L26-websocket:websocket'
-//include 'L26-websocket:messager'
-//include 'L26-websocket:messager-starter'
-//include 'L26-websocket:application'
+include 'L26-websocket:websocket'
+include 'L26-websocket:messager'
+include 'L26-websocket:messager-starter'
+include 'L26-websocket:application'
 
 include 'L27-springDataJdbc'
 include 'L28-JMS:solution:client'
@@ -63,3 +63,5 @@ include 'L29-QA:example'
 include 'L29-QA:solution'
 
 include 'L30-threads'
+include 'L31-JMM'
+
