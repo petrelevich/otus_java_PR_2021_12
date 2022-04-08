@@ -64,4 +64,5 @@ include 'L29-QA:solution'
 
 include 'L30-threads'
 include 'L31-JMM'
+include 'L32-Executors'
 
